@@ -1,0 +1,16 @@
+#if not exist cretatevirtualenv
+>>cvirtualenv env
+
+#activated
+>>env\Scripts\activate
+
+#install modules
+>>pip install opencv-python 
+>>pip install pyqt5 pyqt5-tools
+>>pip install imutils Xgui
+
+#terminal
+>>qt5-tools designer
+
+#convert designer to py source
+#pyuic5 -x yourfileUI.ui -o yourmainfile.py
